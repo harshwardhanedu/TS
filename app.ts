@@ -1,2 +1,3 @@
-let a:number=10.11;
-console.log(a);
+let data=['anil0','joyo,mario',10,false];
+data.push(true)
+console.log(data);
