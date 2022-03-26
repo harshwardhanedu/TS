@@ -1,6 +1,7 @@
+export {}
 class App {
     test(){
-        console.log("Test fun works")
+        console.log("Test fun works fine")
     }
 }
 let a1=new App();
