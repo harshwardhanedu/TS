@@ -1,14 +1,13 @@
-//class
-var App = /** @class */ (function () {
-    function App(name) {
-        this.name = "Harsh";
-        this.name = name;
-        console.log(name);
+"use strict";
+exports.__esModule = true;
+var Child = /** @class */ (function () {
+    function Child() {
+        this.name = "harsh";
     }
-    App.prototype.getName = function () {
+    Child.prototype.getName = function () {
         return this.name;
     };
-    return App;
+    return Child;
 }());
-var a1 = new App("Harsh");
-console.log(a1.getName());
+var c1 = new Child();
+console.log(c1.getName());
