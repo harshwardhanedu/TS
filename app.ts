@@ -1,16 +1,17 @@
-//Interface in type script
-interface userType{
-    name:string,
-    age:number,
-    getName:()=>string
-}
-let users:userType=
-{
-    name:'Shivani Ghanekar',
-    age:30,
-    getName:function()
+//class
+
+class App{
+    name ="Harsh"
+    constructor(name:string){
+        this.name=name
+        console.log(name);
+        
+    }
+    getName():string
     {
-        return "Shivani Ghanekar"
+  
+        return this.name
     }
 }
-console.log(users.getName());
+let a1=new App("Harsh");
+console.log(a1.getName());

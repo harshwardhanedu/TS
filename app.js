@@ -1,8 +1,14 @@
-var users = {
-    name: 'Shivani Ghanekar',
-    age: 30,
-    getName: function () {
-        return "Shivani Ghanekar";
+//class
+var App = /** @class */ (function () {
+    function App(name) {
+        this.name = "Harsh";
+        this.name = name;
+        console.log(name);
     }
-};
-console.log(users.getName());
+    App.prototype.getName = function () {
+        return this.name;
+    };
+    return App;
+}());
+var a1 = new App("Harsh");
+console.log(a1.getName());
