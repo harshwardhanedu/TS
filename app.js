@@ -1,4 +1,8 @@
-var data = ['anil0', 'joyo,mario', 10, false];
-data.push(true);
-data.push(799);
-console.log(data);
+var users = {
+    name: 'brouce ',
+    age: 30,
+    address: 'USA'
+};
+//custom define
+users.name = 'harsh';
+console.log(users);
