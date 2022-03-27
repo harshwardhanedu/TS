@@ -1,16 +1,7 @@
-//custusom  type define
-interface usersTyped{
-    name:string,
-    age: number,
-    address: string
-} 
-let users = {
-    name: 'brouce ',
-    age: 30,
-    address: 'USA'
-}
+//Union Types adding more data in one variable
 
-//custom define
+//let data:any="harsh"
+let data:string | number | boolean="harsh"
+data=true;
+console.log(data);
 
-users.name='harsh';
-console.log(users)
