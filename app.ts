@@ -1,7 +1,16 @@
-//Union Types adding more data in one variable
-
-//let data:any="harsh"
-let data:string | number | boolean="harsh"
-data=true;
-console.log(data);
-
+//Interface in type script
+interface userType{
+    name:string,
+    age:number,
+    getName:()=>string
+}
+let users:userType=
+{
+    name:'Shivani Ghanekar',
+    age:30,
+    getName:function()
+    {
+        return "Shivani Ghanekar"
+    }
+}
+console.log(users.getName());
